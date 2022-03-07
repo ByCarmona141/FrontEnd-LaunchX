@@ -1,0 +1,42 @@
+:root {
+    --primary-color: #B9975B;
+    --secondary-color: #f5f3da;
+    --text-color: #000;
+    --background-color: #fff;
+  }
+  
+  body {
+    color: var(--text-color);
+    background-color: var(--background-color);
+  }
+  
+  a {
+    color: inherit;
+  }
+  
+  .primary-button {
+    width: 100%;
+    padding: 0.8rem 1.2rem;
+    display: block;
+    color: var(--background-color);
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: var(--text-color);
+    border-radius: 5rem;
+    transition: background-color, color 0.2s ease-in;
+  }
+  
+  .primary-button:hover {
+    color: var(--background-color);
+    background-color: var(--primary-color);
+  }
+  
+  .primary-button.inverted {
+    color: var(--text-color);
+    background-color: var(--background-color);
+  }
+  
+  .primary-button.inverted:hover {
+    color: var(--background-color);
+    background-color: var(--primary-color);
+  }
